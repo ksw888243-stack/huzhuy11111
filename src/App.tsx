@@ -102,9 +102,9 @@ const STYLE_CARDS = [
     title: "极简风 (MINIMALIST)",
     fullTitle: "极简风艺术系列 (MINIMALIST SERIES)",
     desc: "隐框设计与极窄边框立面，追求建筑线条最纯粹的科技冷调留白。",
-    img: "/src/assets/images/grey_ribbed_pivot_door_1781176419776.png",
+    img: "https://i.ibb.co/mFPYWQz7/door-1-png.jpg",
     imagePool: [
-      "/src/assets/images/sleek_black_entrance_door_1781176433370.png",
+      "https://i.ibb.co/6JHrQSV8/door-2-png.jpg",
       "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=500&q=80",
       "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=80",
       "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=500&q=80"
