@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&family=Noto+Serif+SC:wght@200;300;400;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #bda27e;
+  --color-bg-cool: #fbfcff;
+  --color-border-light: #eaeaea;
+  --color-text-dark: #111111;
+  --color-text-muted: #666666;
+  --font-serif: "Noto Serif SC", serif;
+  --font-sans: "Montserrat", "Noto Serif SC", -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-bg-cool);
+  color: var(--color-text-dark);
+  scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #fbfcff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bda27e33;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #bda27e77;
+}

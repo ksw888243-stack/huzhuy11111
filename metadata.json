@@ -1,0 +1,6 @@
+{
+  "name": "UMT DESIGN",
+  "description": "HUZHIYI 户之屹 | 国际高端奢华入户门高奢独立站",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
