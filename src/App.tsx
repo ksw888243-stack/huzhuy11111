@@ -116,10 +116,10 @@ const STYLE_CARDS = [
     title: "木纹转印风 (WOOD GRAIN)",
     fullTitle: "木纹转印风原生系列 (WOOD GRAIN SERIES)",
     desc: "超高精密转印重塑原生木润纹理，赋予坚固钢装甲自然生命力。",
-    img: "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=600&q=80",
+    img: "https://i.ibb.co/N2PLR97G/door-4-png.jpg",
     imagePool: [
-      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?auto=format&fit=crop&w=500&q=80",
-      "https://images.unsplash.com/photo-1540518614846-7eded433c457?auto=format&fit=crop&w=500&q=80",
+      "https://i.ibb.co/nst4fQKn/door-3-png.jpg",
+      "https://i.ibb.co/N2PLR97G/door-4-png.jpg",
       "https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=500&q=80",
       "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=500&q=80"
     ],
@@ -670,7 +670,10 @@ export default function App() {
                   const formattedNum = itemIndex < 10 ? `0${itemIndex}` : `${itemIndex}`;
                   const skuCode = `HZY-${selectedStyle.id}-${1000 + itemIndex}`;
                   // Rotate imagery pool
-                  const imageSrc = selectedStyle.imagePool[i % selectedStyle.imagePool.length];
+                  let imageSrc = selectedStyle.imagePool[i % selectedStyle.imagePool.length];
+                  if (skuCode === "HZY-WOOD-1006") {
+                    imageSrc = "https://i.ibb.co/mFPYWQz7/door-1-png.jpg";
+                  }
 
                   return (
                     <div
